@@ -1,5 +1,5 @@
 /* (General) Type Selectors */
-/* STEP 3A */ {
+body {
   font-family: "Helvetica", "Arial", sans-serif;
 }
 
@@ -32,7 +32,7 @@
 
 /* (Structural) Type Selectors */
 
-/* STEP 3B */ {
+section {
   margin-bottom: 16px;
   padding: 16px;
   background-color: rgba(231,209,75,0.15); /* lt yellow */
@@ -42,22 +42,22 @@
   font-style: italic;
 }
 
-/* STEP 6A */ {
+footer a {
   color: #000;
 }
 
 
 /* id Selectors */
-/* STEP 4A */ {
+#introduction {
   background-color: rgba(69,105,159,0.15); /* lt blue */
   border: 1px dashed rgb(69,105,159); /* blue */
 }
 
-/* STEP 6B */ {
+#introduction a {
   color: rgb(69,105,159); /* blue */
 }
 
-/* STEP 4B */ {
+#return-to-top {
   background-color: rgb(231,209,75); /* yellow */
 }
 
@@ -70,7 +70,7 @@
 
 /* class Selectors */
 
-/* STEP 5A */ {
+.first {
   font-weight: bold;
 }
 
@@ -78,7 +78,7 @@
   font-size: 22px;
 }
 
-/* STEP 5B */ {
+.highlight {
   font-weight: bold;
   color: rgb(69,105,159); /* blue */
 }
