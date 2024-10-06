@@ -3,28 +3,30 @@ body {
   font-family: "Helvetica", "Arial", sans-serif;
 }
 
-/* STEP 12 */ {
+a:hover {
   background-color: rgba(231,209,75,0.5); /* lt yellow */
 }
 
-/* STEP 7B */ {
+h2, h3 {
   color: rgb(69,105,159); /* blue */
 }
 
-/* STEP 7A */ {
+
+p,
+li {
   line-height: 1.5;
 }
 
-/* STEP 10A */ {
+ul > li {
   list-style-type: square;
 }
 
-/* STEP 11A*/ {
+abbr[title] {
   text-decoration-color: rgb(69,105,159); /* blue */
   text-decoration-style: wavy;
 }
 
-/* STEP 11B */ {
+time[datetime^="19"] {
   font-style: italic;
   color: rgb(69,105,159); /* blue */
 }
@@ -38,7 +40,7 @@ section {
   background-color: rgba(231,209,75,0.15); /* lt yellow */
 }
 
-/* STEP 10B */ {
+aside > p {
   font-style: italic;
 }
 
@@ -61,7 +63,7 @@ footer a {
   background-color: rgb(231,209,75); /* yellow */
 }
 
-/* STEP 8 */ {
+#geography aside {
   border: 1px dashed rgb(69,105,159);
   padding-left: 16px;
 }
@@ -74,7 +76,7 @@ footer a {
   font-weight: bold;
 }
 
-/* STEP 13 */ {
+first::first-letter {
   font-size: 22px;
 }
 
