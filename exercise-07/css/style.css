@@ -1,23 +1,47 @@
 /* stylesheet for constitution.html */
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
 body {
     /* color: red; */
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Ovo", "Times New Roman", serif;
+    font-weight: 400;
+    font-style: normal;
     color: #222;
     font-size: 18px;
     line-height: 1.5;
+    word-spacing: 5px;
+}
+
+h1, h2, h3 {
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: rgb(254, 159, 241);
+    letter-spacing: 5px;
+    text-decoration: wavy underline overline #478;
+}
+
+nav {
+    text-shadow: .2px .2px #0011ff;
 }
 
 #preamble {
-    background-color: rgba(14, 31, 65, 0.2);
+    background-color: rgb(184, 207, 255);
 }
 
 #preamble p {
     font-size: 14px;
     font-style: italic;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
 }
 
 .alt-bg {
-    background-color: rgba(201, 53, 68, 0.2);
+    background-color: hsl(93, 100%, 86%);
+    text-align: right;
 }
 
 a:link {
