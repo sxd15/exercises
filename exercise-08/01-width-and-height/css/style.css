@@ -1,4 +1,8 @@
 #box {
   background-color: rgba(61,112,236,0.5);
+  width: 300px;
+  height: 100px;
+  overflow: auto;
+
   /* add your properties here */
 }

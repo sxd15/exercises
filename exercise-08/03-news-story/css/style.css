@@ -1,3 +1,17 @@
 body {
-  /* add your styles to center the block of content! */
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default padding */
 }
+  
+  /* Style for the main content area */
+main {
+  width: 80%; /* Set the width of the content */
+  margin: 0 auto 50px auto; /* Center the content horizontally and add white space at the bottom */
+  padding: 20px; /* Add padding around the content */
+}
+  
+  /* Optional header styling */
+header {
+  margin: 0 auto 50px auto;
+}
+  /* add your styles to center the block of content! */
