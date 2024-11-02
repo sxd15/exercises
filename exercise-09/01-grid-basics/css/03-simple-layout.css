@@ -19,3 +19,43 @@ section {
 /* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
 /* WRITE YOUR STYLES BELOW! 👇👇👇           */
 /* **************************************** */
+
+/* General styles for body */
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Left column is 1fr, right column is 2fr */
+  grid-template-rows: auto auto auto; /* Rows adjust based on content */
+  grid-template-areas: 
+    "masthead masthead"
+    "navigation welcome"
+    "copyright copyright";
+  grid-gap: 20px;             /* 20px spacing between rows and columns */
+  max-width: 960px;           /* Limits the content width */
+  margin: 20px auto;          /* Centers the grid and adds 20px top margin */
+  padding: 0 20px;            /* Adds padding inside the 960px max-width */
+  box-sizing: border-box;     /* Ensures padding is included in width */
+}
+
+/* Header */
+header {
+  grid-area: masthead;
+  padding: 15px;
+}
+
+/* Navigation */
+nav {
+  grid-area: navigation;
+  padding: 20px;
+}
+
+/* Main content */
+main {
+  grid-area: welcome;
+  padding: 25px;              /* Increased padding for more spacing */
+}
+
+/* Footer */
+footer {
+  grid-area: copyright;
+  padding: 10px;
+}
