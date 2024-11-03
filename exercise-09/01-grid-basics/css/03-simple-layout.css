@@ -29,11 +29,10 @@ body {
     "masthead masthead"
     "navigation welcome"
     "copyright copyright";
-  grid-gap: 20px;             /* 20px spacing between rows and columns */
+  grid-gap: 20px;             /* 20px spacing between rows and columns  */
   max-width: 960px;           /* Limits the content width */
   margin: 20px auto;          /* Centers the grid and adds 20px top margin */
   padding: 0 20px;            /* Adds padding inside the 960px max-width */
-  box-sizing: border-box;     /* Ensures padding is included in width */
 }
 
 /* Header */

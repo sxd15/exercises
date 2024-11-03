@@ -14,3 +14,33 @@ footer {
 section {
   background-color: #ddd;
 }
+
+
+body { 
+  display: grid;
+  grid-template-rows: 1fr, 5fr, .5fr; /* 3 equal rows */
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  grid-gap: 1em;
+}
+
+header {
+  grid-column: 1 / span 2; /* Header spans both columns */
+  grid-row: 1;
+}
+
+nav {
+  grid-column: 1;
+  grid-row: 2 / span 2; /* Nav spans the second and third rows */
+}
+
+main {
+  grid-column: 2;
+  grid-row: 2; /* Both main and footer are placed in the same area */
+}
+
+footer{
+  grid-column: 2;
+  grid-row: 3;
+}
+
+

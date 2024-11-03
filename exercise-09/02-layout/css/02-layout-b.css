@@ -14,3 +14,49 @@ footer {
 section {
   background-color: #ddd;
 }
+
+body {
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns: repeat(3, 6fr);
+  gap: 1em;
+}
+
+header {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+nav {
+  grid-column: 1;
+  grid-row: 2 / span 2; /* Nav spans the second and third rows */
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Define 2 columns within main */
+  grid-template-rows: repeat(2, 1fr); /* Define 2 rows within main */
+  gap: 1em;
+  grid-column: 2 / span 2; /* Places main in columns 2 and 3 of the body grid */
+  grid-row: 2; /* Places main in the second row of the body grid */
+}
+
+#welcome {
+  grid-column: 1 / span 2; /* Spans both columns within main */
+  grid-row: 1; /* Places welcome in the first row within main */
+}
+
+#coming-soon {
+  grid-column: 2; /* Places coming-soon in the second column within main */
+  grid-row: 2; /* Places coming-soon in the second row within main */
+}
+
+#cats {
+  grid-column: 1; /* Places cats in the first column within main */
+  grid-row: 2; /* Places cats in the second row within main */
+}
+
+footer {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+}
